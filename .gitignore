@@ -6,7 +6,7 @@
 .DS_Store
 .prettierignore
 
-design/
+
 node_modules/
 *.json
 *.config.js
