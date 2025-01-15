@@ -10,5 +10,5 @@ design/
 node_modules/
 *.json
 *.config.js
-output.css
+
 
