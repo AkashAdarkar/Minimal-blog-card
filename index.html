@@ -2,18 +2,24 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+    </style>
   <title>Minimal Blog Card</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-  <div id="card">
-    <img src="resources/Cactus.jpg" alt="Cactus Image" srcset="">
-    <div id="tag">Design</div>
-    <h1>Embracing Minimalism</h1>
-    <p>From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
-    <hr>
-    <p>Annie Spratt</p>
+<body class="bg-stone-50 flex justify-center items-center min-h-screen">
+  <div id="card" class="rounded-md bg-white w-80 p-3 border drop-shadow-xl shadow-violet-100 ">
+    <img  class="mb-3 rounded-md" src="resources/Cactus.jpg" alt="Cactus Image" srcset="">
+    <div  id="tag" class=" w-12 rounded-3xl px-1 text-center font-sora text-xs text-violet-700 bg-slate-200">Design</div>
+    <div  class="" id="detail-container">
+
+      <h1 class="font-sora font-extrabold text-lg text-slate-800" >Embracing Minimalism</h1>
+      <p class="text-gray-700  font-sora text-md " >From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
+      <hr class="" >
+      <p class=" font-sora text-sm text-gray-700" >Annie Spratt</p>
+    </div>
   </div>
 </body>
 </html>
